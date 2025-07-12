@@ -1,0 +1,6 @@
+venv/
+
+# Data / Model Files
+.quickdrawcache/
+data/
+emoji_cnn_model.h5

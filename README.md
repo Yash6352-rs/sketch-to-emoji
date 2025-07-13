@@ -66,19 +66,19 @@ An interactive deep learning web app that converts hand-drawn sketches into rele
 
 ## Project Structure
 
-sketch-to-emoji/
-   - data/                           # Raw and processed image data
+### sketch-to-emoji/
+   - data/(Raw and processed image data)
       - smiley_face.npy
       - ... (more .npy files)
-      - X.npy / y.npy               # Final training data
-   - static/                         # CSS styles
+      - X.npy / y.npy (Final training data)
+   - static/ (CSS styles)
       - style.css
    - templates/
-      - index.html                  # Web interface
-   - load_data.py                    # Preprocess and load data
-   - train_cnn.py                    # Train CNN model
-   - app.py                          # Flask server
-   - emoji_cnn_model.h5              # Saved trained model
+      - index.html (Web interface)
+   - load_data.py  (Preprocess and load data)
+   - train_cnn.py  (Train CNN model)
+   - app.py  (Flask server)
+   - emoji_cnn_model.h5 (Saved trained model)
    - README.md
 
 ---

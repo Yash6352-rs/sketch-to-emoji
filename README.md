@@ -67,7 +67,7 @@ An interactive deep learning web app that converts hand-drawn sketches into rele
 ## Project Structure
 
 ### sketch-to-emoji/
-   - data/(Raw and processed image data)
+   - data/ (Raw and processed image data)
       - smiley_face.npy
       - ... (more .npy files)
       - X.npy / y.npy (Final training data)

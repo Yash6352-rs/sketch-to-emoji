@@ -4,7 +4,7 @@ An interactive deep learning web app that converts hand-drawn sketches into rele
 
 ---
 
-## ✨ Features
+## Features
 
 - Draw any object on the canvas (star, sun, flower, etc.)
 - Recognizes 10 predefined emoji classes
@@ -61,6 +61,25 @@ An interactive deep learning web app that converts hand-drawn sketches into rele
 - 👕 T-shirt
 - 🟥 Square
 
+
+---
+
+## Project Structure
+
+sketch-to-emoji/
+   - data/                     # Raw and processed image data
+      - smiley_face.npy
+      - ... (more .npy files)
+      - X.npy / y.npy         # Final training data
+   - static/                   # CSS styles
+      - style.css
+   - templates/
+      - index.html            # Web interface
+   - load_data.py              # Preprocess and load data
+   - train_cnn.py              # Train CNN model
+   - app.py                    # Flask server
+   - emoji_cnn_model.h5        # Saved trained model
+   - README.md
 
 ---
 
